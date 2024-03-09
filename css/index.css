@@ -107,8 +107,9 @@ body{
     font-size: 20px;
 }
 .pagina_inicio{
-    position: absolute;
+    position: relative;
     height: 60em;
+    top: 50px;
     width: 100%;
 }
 .banner{
