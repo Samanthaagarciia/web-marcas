@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon/LOGO.png" type="image/x-icon">
     <link rel="stylesheet" href="css/OSConsulting.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Dancing+Script&display=swap" rel="stylesheet">
     <title>Proyectos y Servicios</title>
 </head>
 <body>
-
 <!-- Menú Responsive Pequeño-->
     <nav class="menu">
-    <!-- Hamburguesa para desplegable -->
+<!-- Hamburguesa para desplegable -->
         <input id="checkbox" type="checkbox">
     <label class="ham" for="checkbox">
         <div id="bar1" class="bars"></div>
         <div id="bar2" class="bars"></div>
         <div id="bar3" class="bars"></div>
     </label>
-            <!-- Logo, Nombre y Slogan -->
+<!-- Logo, Nombre y Slogan -->
             <a href="index.html">
                 <img src="img/logo.png" alt="" class="logo_resp">
             </a>
@@ -34,17 +35,15 @@
             <li><a href="Area_Clientes.html">Clientes</a></li>
         </ul>
     </nav>
-    <!-- Banderin con el logo, nombre y slogan de la empresa -->
-    
+<!-- Banderin con el logo, nombre y slogan de la empresa -->
     <div class="banderin">
         <img id="letras" src="img/letra_naranja_fondo_verde.png" alt="">
-        <a href="index.html">
+        <a href="index.htm">
             <img id="logo" src="img/logo.png" alt="" >
         </a>
         <p id="slogan">Tomorrow's transport software solutions—today.</p>
     </div>
-
-    <!-- Tipos de servicios ofrecidos -->
+<!-- Tipos de servicios ofrecidos -->
     <div class="contenedor">
         <h1 id="servicios" >Servicios</h1>
         <div class="servicios servicio1">
@@ -84,7 +83,7 @@
             </div>
         </div>
     </div>
-        <!-- Galeria de distintos Videos sobre proyectos -->
+<!-- Galeria de distintos Videos sobre proyectos -->
     <div class="contenedor2">
         <h1 id="proyectos" >Proyectos</h1>
         <div class="video_gallery">
@@ -97,19 +96,22 @@
             <div class="flecha antes"></div>
             <div class="flecha dsps"></div>
         </div>
-        <div class="banner">
-            <img src="img/logo.png" alt="">
-            <div class="contactanos">
-                <h1>CONTÁCTANOS</h1>
-                <br>
-                <p class="num"><a href="tel:+">666 555 444</a></p>
-                <p class="correo"><a href="mailto:#">contactanos@osconsulting.es</a></p>
-                <p class="direccion">Calle Tajo 4, Univesidad Europea</p>
-                <p class="derechos">©2024 Open Systems Consulting Pty Ltd | All rights reserved</p>
-            </div>
-        </div>
     </div>
-
+<!-- Banner -->
+        <div class="pie_servi">
+            <div class="banner">
+                <img src="img/logo.png" alt="">
+                <div class="contactanos">
+                    <h1>CONTÁCTANOS</h1>
+                    <br>
+                    <p class="num"><a href="tel:+">666 555 444</a></p>
+                    <p class="correo"><a href="mailto:#">contactanos@osconsulting.es</a></p>
+                    <p class="direccion">Calle Tajo 4, Univesidad Europea</p>
+                    <p class="derechos">©2024 Open Systems Consulting Pty Ltd | All rights reserved</p>
+                </div>
+            </div>
+        </div>  
+<!-- Script para que los botones desplacen los videos -->
     <script>
         let antes = document.querySelector('.antes');
         let dsps = document.querySelector('.dsps');
@@ -126,10 +128,10 @@
             video_gallery.style= `transform: perspective(1000px) rotateY(${dagrees}deg)`;
         })
     </script>
+<!-- Botón back to top -->
     <button class="custom-btn btn-1"><a href="#"><ion-icon name="chevron-up-outline"></ion-icon></a></button>
-   
+<!-- Script para los iconos -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
 </body>
 </html>

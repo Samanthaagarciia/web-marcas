@@ -107,9 +107,8 @@ body{
     font-size: 20px;
 }
 .pagina_inicio{
-    position: relative;
+    position: absolute;
     height: 60em;
-    top: 50px;
     width: 100%;
 }
 .banner{
@@ -243,23 +242,5 @@ body{
     }
     #checkbox:checked ~ul{
         right: .5px;
-    }
-    .banner>img{
-        margin-left: 50%;
-        transform: translateX(-50%);
-        position: relative;
-    }
-    .contactanos{
-        position: absolute;
-        top: 20em;
-        width: 30em;
-        margin: auto;
-        left: 0;
-        right: 0;
-        padding: 0;
-    }
-    .contactanos p{
-        text-align: center;
-        margin: 10px;
     }
 }
